@@ -1,0 +1,52 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: #deff25d3; /* Цвет фона веб-страницы */
+    color: #000000; /* Цвет основного текста */ 
+}
+h1 {
+    color: #000000; /* Цвет заголовка */
+    font-size: 58px; /* Размер шрифта в пунктах */
+    font-family: IntelOne Mono Light 300; /* Семейство шрифтов */
+}
+ul {
+    color: #c59191; /* Цвет заголовка */
+    font-size: 20px; /* Размер шрифта в пунктах */
+    font-family: IntelOne Mono Light 300; /* Семейство шрифтов */
+}
+p {
+    color: #000000; /* Цвет заголовка */
+    font-size: 30px; /* Размер шрифта в пунктах */
+    font-family: IntelOne Mono Light 300; /* Семейство шрифтов */
+}
+h3 {
+    color: #000000; /* Цвет заголовка */
+    font-size: 25px; /* Размер шрифта в пунктах */
+    font-family: IntelOne Mono Light 300; /* Семейство шрифтов */
+}
+head {
+    color: #000000; /* Цвет заголовка */
+    font-size: 25px; /* Размер шрифта в пунктах */
+    font-family: IntelOne Mono Light 300; /* Семейство шрифтов */
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+      margin-left: 150%;
+    }
+  
+    50% {
+      color: red;
+      margin-left: 0% ;
+    }
+  
+    100% {
+      color: blue;
+      margin-left: -150%;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
